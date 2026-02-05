@@ -43,3 +43,4 @@ System.out.println("The youngest freind is: "+youngest);
 System.out.println("The tallest freind is: "+tallest);
     }
 }
+ 
