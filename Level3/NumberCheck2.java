@@ -27,8 +27,6 @@ public static void storedigits(int n,int c){
     System.out.println();
     sum(arr,num);
     square(arr);
-    armstrong(arr,num);
-    smallest(arr);
 }
 public static void sum(int arr[],int num){
     int sum=0;
