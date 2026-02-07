@@ -10,6 +10,7 @@ class Stack{
         arr=new int[size];
     }
     void push(int data){
+        // if(isEmpty());
         if(top==size-1){
             System.out.println("Stack overflow");
         }
@@ -18,6 +19,7 @@ class Stack{
         }
     }
     int pop(){
+        // if(isEmpty())
         if(top==-1){
             System.out.println("Underflow Stack");
             return -1;
@@ -32,6 +34,7 @@ boolean isEmpty(){
     return false;
 }
 int peak(){
+    // if(isEmpty())
     if(top==-1){
         System.out.println("Empty stack");
         return -1;
