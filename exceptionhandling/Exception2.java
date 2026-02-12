@@ -9,6 +9,7 @@ public class Exception2 {
         }
         catch(ArithmeticException e){
             throw new ArithmeticException("Divivde by zero exception occurs"+e);
+            // throw creates an object of exception
         }
         
     }
